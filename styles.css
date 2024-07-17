@@ -15,6 +15,10 @@ header {
     justify-content: space-between;
 }
 
+main{
+    margin-top: 200px;
+}
+
 .nav-icon{
     display: flex;
     align-items: center;
@@ -54,4 +58,33 @@ header {
     border: solid 2px #2e86fd;
     color: #2e86fd;
 
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.suscribe-form input{
+    width: 50%;
+    height: 50px;
+}
+
+footer{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around
+}
+
+.footer-div{
+    display: flex;
+    align-items: start;   
+    gap: 20px; 
+    width: 400px;
+}
+
+.footer-div h4{
+    margin: 0;
 }
